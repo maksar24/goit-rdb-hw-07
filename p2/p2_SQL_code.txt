@@ -1,0 +1,6 @@
+select 
+id, 
+date, 
+date + interval 1 day as new_date
+from 
+orders;

@@ -1,0 +1,6 @@
+select 
+id, 
+date, 
+floor(unix_timestamp(date)) as unix_date
+from 
+orders;

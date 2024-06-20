@@ -1,0 +1,8 @@
+select 
+id,
+date,
+json_object(
+'id', id, 'date', date
+)
+from 
+orders;
